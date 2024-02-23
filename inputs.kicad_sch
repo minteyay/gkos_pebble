@@ -1,0 +1,15 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid adb00ae0-0cad-4577-a66f-a6bb9801a1a9)
+
+  (paper "A4")
+
+  (title_block
+    (title "gkos pebble")
+    (company "minteyay")
+  )
+
+  (lib_symbols
+  )
+
+)

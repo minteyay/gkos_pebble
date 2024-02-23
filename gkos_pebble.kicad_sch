@@ -16,8 +16,8 @@
   )
 
 
-  (text_box "- BLE module\n- RP2040 MCU\n- NiMH charger\n- NiMH cell connection\n- 3V boost converter\n- USB-C connection + TVS\n- keyboard switches\n- mouse buttons\n- touchpad\n- memory LCD"
-    (at 24.13 153.67 0) (size 50.8 34.29)
+  (text_box "- BLE module\n- RP2040 MCU\n- USB-C connection + TVS\n- keyboard switches\n- mouse buttons\n- touchpad\n- memory LCD"
+    (at 24.13 153.67 0) (size 50.8 25.4)
     (stroke (width 0) (type default) (color 132 0 0 1))
     (fill (type color) (color 255 255 194 1))
     (effects (font (size 2 2) (color 132 0 0 1)) (justify left top))
@@ -27,6 +27,99 @@
   (text "integration todo" (at 24.13 152.4 0)
     (effects (font (size 3 3) (thickness 0.6) bold italic (color 132 0 0 1)) (justify left bottom))
     (uuid 24ca3f32-8891-4ab1-a793-593ae43ac954)
+  )
+
+  (sheet (at 127 114.3) (size 27.94 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 255 194 1.0000))
+    (uuid b094ad32-9f85-443d-ad4d-e6b703944261)
+    (property "Sheetname" "mcu" (at 127 113.5884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mcu.kicad_sch" (at 127 135.2046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "gkos_pebble"
+        (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 92.71 72.39) (size 27.94 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 255 194 1.0000))
+    (uuid c9d07020-fbfe-4129-a342-bf81cb9f1c72)
+    (property "Sheetname" "inputs" (at 92.71 71.6784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "inputs.kicad_sch" (at 92.71 93.2946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "gkos_pebble"
+        (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 93.98 38.1) (size 24.13 5.08) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 255 194 1.0000))
+    (uuid cd56f630-7868-414d-908b-81d1bc89adae)
+    (property "Sheetname" "power" (at 93.98 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 93.98 43.7646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "USB_VBUS" input (at 93.98 40.64 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid dec8f4e7-0253-45f2-82a7-ec06b9952aca)
+    )
+    (pin "3V_REG" output (at 118.11 40.64 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 52c41cbd-dc2e-4ab9-9036-0cbfc990a8ae)
+    )
+    (instances
+      (project "gkos_pebble"
+        (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 190.5 129.54) (size 21.59 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 255 194 1.0000))
+    (uuid d83faf22-21bb-4089-b9cb-4974311e9f47)
+    (property "Sheetname" "lcd" (at 190.5 128.8284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "lcd.kicad_sch" (at 190.5 150.4446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "gkos_pebble"
+        (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 147.32 50.8) (size 29.21 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 255 194 1.0000))
+    (uuid f1e179d9-6d1d-4136-839e-ba1cd3485093)
+    (property "Sheetname" "ble" (at 147.32 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ble.kicad_sch" (at 147.32 71.7046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "gkos_pebble"
+        (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d" (page "4"))
+      )
+    )
   )
 
   (sheet_instances

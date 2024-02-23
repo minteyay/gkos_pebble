@@ -328,6 +328,26 @@
     [
       "ab6fff6e-44fa-4992-ab9d-8d9a7df4367d",
       ""
+    ],
+    [
+      "cd56f630-7868-414d-908b-81d1bc89adae",
+      "power"
+    ],
+    [
+      "b094ad32-9f85-443d-ad4d-e6b703944261",
+      "mcu"
+    ],
+    [
+      "f1e179d9-6d1d-4136-839e-ba1cd3485093",
+      "ble"
+    ],
+    [
+      "c9d07020-fbfe-4129-a342-bf81cb9f1c72",
+      "inputs"
+    ],
+    [
+      "d83faf22-21bb-4089-b9cb-4974311e9f47",
+      "lcd"
     ]
   ],
   "text_variables": {}
