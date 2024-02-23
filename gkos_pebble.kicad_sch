@@ -1,0 +1,35 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid ab6fff6e-44fa-4992-ab9d-8d9a7df4367d)
+
+  (paper "A4")
+
+  (title_block
+    (title "gkos pebble")
+    (date "2024-02-22")
+    (rev "1")
+    (company "minteyay")
+    (comment 1 "main sheet")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text_box "- BLE module\n- RP2040 MCU\n- NiMH charger\n- NiMH cell connection\n- 3V boost converter\n- USB-C connection + TVS\n- keyboard switches\n- mouse buttons\n- touchpad\n- memory LCD"
+    (at 24.13 153.67 0) (size 50.8 34.29)
+    (stroke (width 0) (type default) (color 132 0 0 1))
+    (fill (type color) (color 255 255 194 1))
+    (effects (font (size 2 2) (color 132 0 0 1)) (justify left top))
+    (uuid 698d8102-11e6-473a-a096-f22507dccfdd)
+  )
+
+  (text "integration todo" (at 24.13 152.4 0)
+    (effects (font (size 3 3) (thickness 0.6) bold italic (color 132 0 0 1)) (justify left bottom))
+    (uuid 24ca3f32-8891-4ab1-a793-593ae43ac954)
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

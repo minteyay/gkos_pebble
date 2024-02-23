@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "user")(type "KiCad")(uri "${KIPRJMOD}/symbols/user.kicad_sym")(options "")(descr ""))
+  (lib (name "CPG135001D02")(type "KiCad")(uri "${KIPRJMOD}/symbols/CPG135001D02.kicad_sym")(options "")(descr ""))
+)
