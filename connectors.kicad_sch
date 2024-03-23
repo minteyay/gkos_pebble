@@ -1318,7 +1318,7 @@
     (property "Reference" "J2" (at 78.74 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "USB_C_Receptacle_USB2.0_16P" (at 78.74 81.28 0)
+    (property "Value" "217183-0001" (at 78.74 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "footprints:2171830001" (at 82.55 101.6 0)
