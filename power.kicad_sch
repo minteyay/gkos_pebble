@@ -944,14 +944,14 @@
     (effects (font (size 1.27 1.27) (color 132 0 0 1)) (justify left top))
     (uuid 2b82570c-d713-456a-ae9f-b6bc2a57e487)
   )
-  (text_box "R3=(V_{out}/V_{ref}-1)*R4\nV_{out,ideal}=3.3V\nV_{ref}=0.5V\n\nR3=5.6*R4\n\nwith E12 values,\nV_{out}=3.278V"
+  (text_box "R5=(V_{out}/V_{ref}-1)*R6\nV_{out,ideal}=3.3V\nV_{ref}=0.5V\n\nR5=5.6*R6\n\nwith E12 values,\nV_{out}=3.278V"
     (at 162.56 142.24 0) (size 21.59 17.78)
     (stroke (width 0) (type default) (color 132 0 0 1))
     (fill (type color) (color 255 255 194 1))
     (effects (font (size 1.27 1.27) (color 132 0 0 1)) (justify left top))
     (uuid 46ab7a0a-3115-46d0-9783-70f021433982)
   )
-  (text_box "V_{out}=V_{ref}*(1+R1/R2)\nV_{ref}=0.6V\n\n0.6V*(1+90k/20k)=3.3V"
+  (text_box "V_{out}=V_{ref}*(1+R3/R4)\nV_{ref}=0.6V\n\n0.6V*(1+90k/20k)=3.3V"
     (at 87.63 63.5 0) (size 25.4 10.16)
     (stroke (width 0) (type default) (color 132 0 0 1))
     (fill (type color) (color 255 255 194 1))
@@ -1005,7 +1005,7 @@
   (symbol (lib_id "user:TLV61070A") (at 173.99 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 092590dc-650d-4a25-9cda-fbd09bbe493f)
-    (property "Reference" "IC1" (at 167.64 119.38 0)
+    (property "Reference" "IC2" (at 167.64 119.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TLV61070A" (at 171.45 137.16 0)
@@ -1026,7 +1026,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/cd56f630-7868-414d-908b-81d1bc89adae"
-          (reference "IC1") (unit 1)
+          (reference "IC2") (unit 1)
         )
       )
     )
@@ -1035,7 +1035,7 @@
   (symbol (lib_id "power:GND") (at 190.5 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1219b213-0eb8-485a-9654-c2b0a9913d9b)
-    (property "Reference" "#PWR07" (at 190.5 149.86 0)
+    (property "Reference" "#PWR014" (at 190.5 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 190.5 147.32 0)
@@ -1051,7 +1051,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/cd56f630-7868-414d-908b-81d1bc89adae"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -1060,7 +1060,7 @@
   (symbol (lib_id "Device:C") (at 133.35 55.88 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 17580d2a-8741-4643-81ed-53e81ad44588)
-    (property "Reference" "C2" (at 135.89 53.34 0)
+    (property "Reference" "C3" (at 135.89 53.34 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10uF" (at 135.89 55.88 0)
@@ -1080,7 +1080,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/cd56f630-7868-414d-908b-81d1bc89adae"
-          (reference "C2") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -1089,7 +1089,7 @@
   (symbol (lib_id "power:GND") (at 204.47 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2c6f8a84-108a-4885-ae06-784b30054701)
-    (property "Reference" "#PWR08" (at 204.47 149.86 0)
+    (property "Reference" "#PWR015" (at 204.47 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 204.47 147.32 0)
@@ -1105,7 +1105,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/cd56f630-7868-414d-908b-81d1bc89adae"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -1141,7 +1141,7 @@
   (symbol (lib_id "Device:R") (at 190.5 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4bc7c909-0553-42bc-85ca-6c6012257201)
-    (property "Reference" "R4" (at 191.77 135.89 0)
+    (property "Reference" "R6" (at 191.77 135.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "18k" (at 191.77 138.43 0)
@@ -1158,7 +1158,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/cd56f630-7868-414d-908b-81d1bc89adae"
-          (reference "R4") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -1167,7 +1167,7 @@
   (symbol (lib_id "user:RB521S30") (at 101.6 123.19 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4cf5596f-8140-4990-b7e5-c81404e863e6)
-    (property "Reference" "D1" (at 101.6 120.65 0)
+    (property "Reference" "D3" (at 101.6 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RB521S30" (at 101.6 125.73 0)
@@ -1184,7 +1184,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/cd56f630-7868-414d-908b-81d1bc89adae"
-          (reference "D1") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -1193,7 +1193,7 @@
   (symbol (lib_id "Device:R") (at 120.65 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5627e6ef-d2c3-435f-87ae-31211a18a17e)
-    (property "Reference" "R1" (at 121.92 49.53 0)
+    (property "Reference" "R3" (at 121.92 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "90k 1%" (at 121.92 52.07 0)
@@ -1210,7 +1210,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/cd56f630-7868-414d-908b-81d1bc89adae"
-          (reference "R1") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -1219,7 +1219,7 @@
   (symbol (lib_id "Device:C") (at 153.67 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8135c931-157b-4556-9ee7-82df25c920b5)
-    (property "Reference" "C3" (at 151.13 128.27 0)
+    (property "Reference" "C4" (at 151.13 128.27 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10uF" (at 151.13 130.81 0)
@@ -1239,7 +1239,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/cd56f630-7868-414d-908b-81d1bc89adae"
-          (reference "C3") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -1274,7 +1274,7 @@
   (symbol (lib_id "power:GND") (at 73.66 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 99b6c717-5ddc-4816-9356-9c66dc20b01d)
-    (property "Reference" "#PWR05" (at 73.66 69.85 0)
+    (property "Reference" "#PWR09" (at 73.66 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 73.66 67.31 0)
@@ -1290,7 +1290,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/cd56f630-7868-414d-908b-81d1bc89adae"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -1328,7 +1328,7 @@
   (symbol (lib_id "power:GND") (at 133.35 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c389b82-758b-4160-851a-ff4471f85123)
-    (property "Reference" "#PWR06" (at 133.35 69.85 0)
+    (property "Reference" "#PWR012" (at 133.35 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 133.35 67.31 0)
@@ -1344,7 +1344,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/cd56f630-7868-414d-908b-81d1bc89adae"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -1353,7 +1353,7 @@
   (symbol (lib_id "user:RT8096AHGJ5") (at 93.98 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b078da9b-e5be-4aac-8e95-7b21551eba1d)
-    (property "Reference" "IC2" (at 87.63 41.91 0)
+    (property "Reference" "IC1" (at 87.63 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RT8096AHGJ5" (at 92.71 59.69 0)
@@ -1373,7 +1373,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/cd56f630-7868-414d-908b-81d1bc89adae"
-          (reference "IC2") (unit 1)
+          (reference "IC1") (unit 1)
         )
       )
     )
@@ -1408,7 +1408,7 @@
   (symbol (lib_id "Device:D_TVS_Filled") (at 85.09 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b8fcdafd-8278-43ae-a59e-72ea318c3a0b)
-    (property "Reference" "D4" (at 85.09 127 0)
+    (property "Reference" "D2" (at 85.09 127 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LAD52C03L01" (at 85.09 132.08 0)
@@ -1425,7 +1425,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/cd56f630-7868-414d-908b-81d1bc89adae"
-          (reference "D4") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -1434,7 +1434,7 @@
   (symbol (lib_id "power:GND") (at 74.93 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c8ec8923-6ad9-439d-ad13-8156f61b34fe)
-    (property "Reference" "#PWR01" (at 74.93 149.86 0)
+    (property "Reference" "#PWR010" (at 74.93 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 74.93 147.32 0)
@@ -1450,7 +1450,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/cd56f630-7868-414d-908b-81d1bc89adae"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -1488,7 +1488,7 @@
   (symbol (lib_id "user:RB521S30") (at 157.48 46.99 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cf9950fd-ab74-400d-b8a6-7047418c0d61)
-    (property "Reference" "D3" (at 157.48 44.45 0)
+    (property "Reference" "D4" (at 157.48 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RB521S30" (at 157.48 49.53 0)
@@ -1505,7 +1505,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/cd56f630-7868-414d-908b-81d1bc89adae"
-          (reference "D3") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -1514,7 +1514,7 @@
   (symbol (lib_id "power:GND") (at 153.67 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d4e3552f-4097-4027-ba3a-0ef31089435b)
-    (property "Reference" "#PWR09" (at 153.67 149.86 0)
+    (property "Reference" "#PWR013" (at 153.67 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 153.67 147.32 0)
@@ -1530,7 +1530,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/cd56f630-7868-414d-908b-81d1bc89adae"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -1539,7 +1539,7 @@
   (symbol (lib_id "Device:C") (at 73.66 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d92d947a-aeb8-4c2c-a2e2-8983f29a1993)
-    (property "Reference" "C1" (at 71.12 50.8 0)
+    (property "Reference" "C2" (at 71.12 50.8 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10uF" (at 71.12 53.34 0)
@@ -1559,7 +1559,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/cd56f630-7868-414d-908b-81d1bc89adae"
-          (reference "C1") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -1568,7 +1568,7 @@
   (symbol (lib_id "Device:R") (at 120.65 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e2347a21-f599-4589-b959-7b7fcf3683d7)
-    (property "Reference" "R2" (at 121.92 57.15 0)
+    (property "Reference" "R4" (at 121.92 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20k 1%" (at 121.92 59.69 0)
@@ -1585,7 +1585,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/cd56f630-7868-414d-908b-81d1bc89adae"
-          (reference "R2") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -1594,7 +1594,7 @@
   (symbol (lib_id "Device:R") (at 190.5 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e494dde2-c4d4-4405-ba43-8408ffbcbd86)
-    (property "Reference" "R3" (at 191.77 128.27 0)
+    (property "Reference" "R5" (at 191.77 128.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 191.77 130.81 0)
@@ -1611,7 +1611,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/cd56f630-7868-414d-908b-81d1bc89adae"
-          (reference "R3") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -1620,7 +1620,7 @@
   (symbol (lib_id "power:GND") (at 120.65 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e9d57de3-d9be-4a28-92be-14c2faec2a5e)
-    (property "Reference" "#PWR04" (at 120.65 69.85 0)
+    (property "Reference" "#PWR011" (at 120.65 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 120.65 67.31 0)
@@ -1636,7 +1636,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/cd56f630-7868-414d-908b-81d1bc89adae"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -1645,7 +1645,7 @@
   (symbol (lib_id "user:RB521S30") (at 218.44 125.73 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee1e4f20-8172-4851-a822-4e12a2ea2e93)
-    (property "Reference" "D2" (at 218.44 123.19 0)
+    (property "Reference" "D5" (at 218.44 123.19 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RB521S30" (at 218.44 128.27 0)
@@ -1662,7 +1662,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/cd56f630-7868-414d-908b-81d1bc89adae"
-          (reference "D2") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -1671,7 +1671,7 @@
   (symbol (lib_id "Device:C") (at 204.47 133.35 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f10fb726-c86b-4763-ab00-ba44b662c820)
-    (property "Reference" "C4" (at 207.01 130.81 0)
+    (property "Reference" "C5" (at 207.01 130.81 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10uF" (at 207.01 133.35 0)
@@ -1691,7 +1691,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/cd56f630-7868-414d-908b-81d1bc89adae"
-          (reference "C4") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )

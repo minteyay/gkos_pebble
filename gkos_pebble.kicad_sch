@@ -566,7 +566,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x03_Odd_Even") (at 194.31 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0254107c-0919-4119-ae5e-189b505daf48)
-    (property "Reference" "J4" (at 195.58 138.43 0)
+    (property "Reference" "J1" (at 195.58 138.43 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10129383-906002BLF" (at 195.58 148.59 0)
@@ -587,7 +587,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d"
-          (reference "J4") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -596,7 +596,7 @@
   (symbol (lib_id "power:+3V0") (at 158.75 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3e2791b0-a3dd-42a3-a9d2-45d45a44a125)
-    (property "Reference" "#PWR010" (at 158.75 62.23 0)
+    (property "Reference" "#PWR02" (at 158.75 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V0" (at 158.75 54.61 0)
@@ -612,7 +612,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -621,7 +621,7 @@
   (symbol (lib_id "power:+3V3") (at 151.13 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e715eb6-613a-48dd-a032-0665108b8867)
-    (property "Reference" "#PWR02" (at 151.13 62.23 0)
+    (property "Reference" "#PWR01" (at 151.13 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 151.13 54.61 0)
@@ -637,7 +637,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
