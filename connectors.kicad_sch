@@ -14,13 +14,13 @@
 
   (lib_symbols
     (symbol "Connector:USB_C_Receptacle_USB2.0_16P" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 22.225 0)
-        (effects (font (size 1.27 1.27)))
+      (property "Reference" "J2" (at -10.16 19.05 0)
+        (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "USB_C_Receptacle_USB2.0_16P" (at 0 19.685 0)
-        (effects (font (size 1.27 1.27)))
+      (property "Value" "217183-0001" (at 3.81 -19.05 0)
+        (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Footprint" "" (at 3.81 0 0)
+      (property "Footprint" "footprints:2171830001" (at 3.81 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (at 3.81 0 0)
@@ -216,6 +216,10 @@
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "B12" (effects (font (size 1.27 1.27))))
         )
+        (pin passive line (at -7.62 -22.86 90) (length 5.08)
+          (name "SHIELD" (effects (font (size 1.27 1.27))))
+          (number "B12" (effects (font (size 1.27 1.27))))
+        )
         (pin passive line (at 15.24 15.24 180) (length 5.08) hide
           (name "VBUS" (effects (font (size 1.27 1.27))))
           (number "B4" (effects (font (size 1.27 1.27))))
@@ -239,10 +243,6 @@
         (pin passive line (at 15.24 15.24 180) (length 5.08) hide
           (name "VBUS" (effects (font (size 1.27 1.27))))
           (number "B9" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -7.62 -22.86 90) (length 5.08)
-          (name "SHIELD" (effects (font (size 1.27 1.27))))
-          (number "S1" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1359,7 +1359,7 @@
     (pin "B6" (uuid dfa4ebe1-c9fa-477c-b566-2658159d4834))
     (pin "B4" (uuid 920eba8f-88a3-4c87-b64c-479c3d7cf85d))
     (pin "B7" (uuid 9cf7ad5e-6b34-43fa-b50c-60bf085b89c5))
-    (pin "S1" (uuid 12f4252e-d2e5-4de7-b6c1-ef4ebeb6f3da))
+    (pin "B12" (uuid 12f4252e-d2e5-4de7-b6c1-ef4ebeb6f3da))
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/72f5fa2a-824a-41bd-91bc-666ab65e102b"
