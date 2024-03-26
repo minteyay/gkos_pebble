@@ -1254,7 +1254,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 204.47 125.73 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d0cd9b9-2646-4203-a083-e5a8f16c701a)
-    (property "Reference" "TP29" (at 203.835 124.46 0)
+    (property "Reference" "TP27" (at 203.835 124.46 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "BOOS" (at 203.835 124.46 0)
@@ -1270,7 +1270,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/cd56f630-7868-414d-908b-81d1bc89adae"
-          (reference "TP29") (unit 1)
+          (reference "TP27") (unit 1)
         )
       )
     )
@@ -1766,7 +1766,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 92.71 123.19 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f2639120-14b7-48ce-a05d-09e0b0e43eb0)
-    (property "Reference" "TP28" (at 92.075 121.92 0)
+    (property "Reference" "TP26" (at 92.075 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "VBAT" (at 92.075 121.92 0)
@@ -1782,7 +1782,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/cd56f630-7868-414d-908b-81d1bc89adae"
-          (reference "TP28") (unit 1)
+          (reference "TP26") (unit 1)
         )
       )
     )

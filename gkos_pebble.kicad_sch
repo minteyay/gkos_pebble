@@ -798,7 +798,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 152.4 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 071c9c8e-4d24-411e-bc55-1eeff887a002)
-    (property "Reference" "TP26" (at 153.035 129.54 0)
+    (property "Reference" "TP24" (at 153.035 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "SDA" (at 153.035 129.54 0)
@@ -814,7 +814,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d"
-          (reference "TP26") (unit 1)
+          (reference "TP24") (unit 1)
         )
       )
     )
@@ -848,7 +848,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 119.38 130.81 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3056d96f-9737-4f84-86c0-957a362b47c6)
-    (property "Reference" "TP18" (at 118.745 129.54 0)
+    (property "Reference" "TP16" (at 118.745 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "RESET" (at 118.745 129.54 0)
@@ -864,7 +864,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d"
-          (reference "TP18") (unit 1)
+          (reference "TP16") (unit 1)
         )
       )
     )
@@ -873,7 +873,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 148.59 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 388b55f8-b2fd-4e7d-91ac-d4bc28eb28c7)
-    (property "Reference" "TP20" (at 149.225 60.96 0)
+    (property "Reference" "TP18" (at 149.225 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "3V3" (at 149.225 60.96 0)
@@ -889,7 +889,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d"
-          (reference "TP20") (unit 1)
+          (reference "TP18") (unit 1)
         )
       )
     )
@@ -998,7 +998,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 152.4 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54bfc0f0-3520-49de-a42a-41c80139c0c3)
-    (property "Reference" "TP25" (at 153.035 111.76 0)
+    (property "Reference" "TP23" (at 153.035 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "DCI" (at 153.035 111.76 0)
@@ -1014,7 +1014,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d"
-          (reference "TP25") (unit 1)
+          (reference "TP23") (unit 1)
         )
       )
     )
@@ -1023,7 +1023,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 119.38 123.19 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e294b33-349d-4d61-986b-0c59681e4003)
-    (property "Reference" "TP16" (at 118.745 121.92 0)
+    (property "Reference" "TP14" (at 118.745 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "TPRD" (at 118.745 121.92 0)
@@ -1039,7 +1039,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d"
-          (reference "TP16") (unit 1)
+          (reference "TP14") (unit 1)
         )
       )
     )
@@ -1048,7 +1048,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 152.4 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 67724eaa-dedc-4fb5-9cda-bf0f43606a56)
-    (property "Reference" "TP22" (at 153.035 104.14 0)
+    (property "Reference" "TP20" (at 153.035 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "DCL" (at 153.035 104.14 0)
@@ -1064,7 +1064,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d"
-          (reference "TP22") (unit 1)
+          (reference "TP20") (unit 1)
         )
       )
     )
@@ -1073,7 +1073,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 152.4 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 740eae7b-af1b-4d7d-8c62-13f54f676ffb)
-    (property "Reference" "TP27" (at 153.035 132.08 0)
+    (property "Reference" "TP25" (at 153.035 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "SCL" (at 153.035 132.08 0)
@@ -1089,7 +1089,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d"
-          (reference "TP27") (unit 1)
+          (reference "TP25") (unit 1)
         )
       )
     )
@@ -1173,7 +1173,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 119.38 133.35 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9820306b-bc1d-494a-925e-6fb253b6b6f1)
-    (property "Reference" "TP19" (at 118.745 132.08 0)
+    (property "Reference" "TP17" (at 118.745 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "UBOO" (at 118.745 132.08 0)
@@ -1189,7 +1189,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d"
-          (reference "TP19") (unit 1)
+          (reference "TP17") (unit 1)
         )
       )
     )
@@ -1248,7 +1248,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 152.4 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c51d8d34-6017-4121-aabe-05fe5edc720d)
-    (property "Reference" "TP23" (at 153.035 106.68 0)
+    (property "Reference" "TP21" (at 153.035 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "DSI" (at 153.035 106.68 0)
@@ -1264,7 +1264,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d"
-          (reference "TP23") (unit 1)
+          (reference "TP21") (unit 1)
         )
       )
     )
@@ -1273,7 +1273,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 152.4 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d6038373-a4a6-45ef-bd75-fd165d8ca4b3)
-    (property "Reference" "TP24" (at 153.035 109.22 0)
+    (property "Reference" "TP22" (at 153.035 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "DCS" (at 153.035 109.22 0)
@@ -1289,7 +1289,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d"
-          (reference "TP24") (unit 1)
+          (reference "TP22") (unit 1)
         )
       )
     )
@@ -1373,7 +1373,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 148.59 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ebece26b-2009-4ae9-8292-37253fb386d6)
-    (property "Reference" "TP21" (at 149.225 63.5 0)
+    (property "Reference" "TP19" (at 149.225 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "3V0" (at 149.225 63.5 0)
@@ -1389,7 +1389,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d"
-          (reference "TP21") (unit 1)
+          (reference "TP19") (unit 1)
         )
       )
     )
@@ -1398,7 +1398,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 119.38 125.73 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eec51b58-2a37-4f94-b7eb-a9924ab08dbd)
-    (property "Reference" "TP17" (at 118.745 124.46 0)
+    (property "Reference" "TP15" (at 118.745 124.46 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "MENU" (at 118.745 124.46 0)
@@ -1414,7 +1414,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d"
-          (reference "TP17") (unit 1)
+          (reference "TP15") (unit 1)
         )
       )
     )
