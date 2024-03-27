@@ -554,7 +554,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 123.19 91.44 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 460c952f-69a7-4f65-bd19-613e1e8d192c)
-    (property "Reference" "TP48" (at 122.555 90.17 0)
+    (property "Reference" "TP49" (at 122.555 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "BX1" (at 122.555 90.17 0)
@@ -570,7 +570,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/f1e179d9-6d1d-4136-839e-ba1cd3485093"
-          (reference "TP48") (unit 1)
+          (reference "TP49") (unit 1)
         )
       )
     )
@@ -783,7 +783,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 123.19 93.98 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ed241752-650b-413e-83c2-31e67bb13662)
-    (property "Reference" "TP49" (at 122.555 92.71 0)
+    (property "Reference" "TP50" (at 122.555 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "BX2" (at 122.555 92.71 0)
@@ -799,7 +799,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/f1e179d9-6d1d-4136-839e-ba1cd3485093"
-          (reference "TP49") (unit 1)
+          (reference "TP50") (unit 1)
         )
       )
     )
