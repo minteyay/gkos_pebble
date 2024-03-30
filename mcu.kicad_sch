@@ -2719,7 +2719,7 @@
   (symbol (lib_id "user:RB521S30") (at 165.1 35.56 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 786a1a68-1134-425b-b96f-7e6abe7c9c71)
-    (property "Reference" "D7" (at 165.1 33.02 0)
+    (property "Reference" "D8" (at 165.1 33.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RB521S30" (at 165.1 38.1 0)
@@ -2736,7 +2736,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/b094ad32-9f85-443d-ad4d-e6b703944261"
-          (reference "D7") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -3534,7 +3534,7 @@
   (symbol (lib_id "Device:LED") (at 267.97 109.22 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d813df88-96ae-43e9-9fe3-42853dbbf953)
-    (property "Reference" "D8" (at 265.43 107.315 90)
+    (property "Reference" "D9" (at 265.43 107.315 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "IN-S63AT5A" (at 265.43 109.855 90)
@@ -3551,7 +3551,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/b094ad32-9f85-443d-ad4d-e6b703944261"
-          (reference "D8") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
