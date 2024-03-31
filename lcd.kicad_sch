@@ -404,7 +404,7 @@
   (symbol (lib_id "power:+3V0") (at 165.1 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d83b083-79cf-4075-b67c-e8014dbdb859)
-    (property "Reference" "#PWR080" (at 165.1 99.06 0)
+    (property "Reference" "#PWR082" (at 165.1 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V0" (at 165.1 91.44 0)
@@ -420,7 +420,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/d83faf22-21bb-4089-b9cb-4974311e9f47"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
       )
     )
@@ -513,7 +513,7 @@
   (symbol (lib_id "power:GND") (at 138.43 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd182984-7936-439f-8511-f38c57b4ff73)
-    (property "Reference" "#PWR079" (at 138.43 137.16 0)
+    (property "Reference" "#PWR081" (at 138.43 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 138.43 134.62 0)
@@ -529,7 +529,7 @@
     (instances
       (project "gkos_pebble"
         (path "/ab6fff6e-44fa-4992-ab9d-8d9a7df4367d/d83faf22-21bb-4089-b9cb-4974311e9f47"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
     )
