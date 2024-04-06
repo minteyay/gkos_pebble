@@ -58,7 +58,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_clearance|145600000|68335000|6a11f8ee-a70e-4904-a007-464d9d796cb2|50a7b617-b798-4b0f-8b67-e0a7be7a3cb0",
+        "hole_clearance|152800000|68335000|1066cd1a-823a-4d59-be5a-bfa09a291283|fc368e7a-01d3-4b78-8690-0918583d4a54"
+      ],
       "meta": {
         "version": 2
       },
@@ -530,7 +533,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
