@@ -31,3 +31,6 @@ fp-info-cache
 *.xml
 *.csv
 
+gkos_firmware/lib/README
+gkos_firmware/include/README
+gkos_firmware/test/README
